@@ -14,4 +14,21 @@ public class Item {
 
     }
 
+    /**
+     * Describes the Ref book of the Types (Book, eBook, etc.)
+     */
+    class ItemTypes {
+        int itemTypeID;
+        String itemTypeName;
+    }
+
+    /**
+     * The Class describes the Ref Book topic's of the media Item (Java, Android, Angular, JPA etc.)
+     */
+    class ItemTopics {
+        int itemTopicID;
+        String itemTopicNameEng;
+        String itemTopicNameRus;
+    }
+
 }
